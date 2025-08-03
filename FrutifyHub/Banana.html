@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buy Banana | FruityfyHub</title>
+    <link rel="stylesheet" href="Apple.css" >
+         <link rel="icon" type="image/png" href="https://cdn-icons-png.freepik.com/256/4383/4383066.png">
+
+<link rel="stylesheet" href="FrutifyHub.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> 
+ 
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+  <header><nav class="nav-bar" style="height: 100px;">
+        <img class="im" src="Fruity.png" alt="Company Logo"> <!-- Replace with your logo path -->
+
+       
+        <ul class="ul1"> <li> 
+         <a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id="login-btn" onclick="window.location.href='Login_ecodash.html'">Login</button></ul>
+           <i class="fa-solid fa-bars" id="manuicon"></i>
+
+             <ul class="ul2">  
+        <li> 
+         <a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id="login-btn">Login</button></ul>
+    </nav></header>
+  <main class="product-detail">
+    <div class="product-wrapper">
+      <div class="product-image">
+        <img src="https://www.wallpaperflare.com/static/751/769/87/bananas-cluster-fruit-banana-wallpaper.jpg" alt="Apple">
+      </div>
+      <div class="product-info">
+        <h1>🍌 Bananas</h1>
+     <p class="price">
+  Price per kg: <strong>₹<span id="price-per-kg">160</span></strong>
+</p>
+
+<label for="quantity">Quantity (kg):</label>
+<input type="number" id="quantity" min="1" value="1" />
+
+<p class="total-price">
+  Total: <strong>₹<span id="total-price">160</span></strong>
+</p>
+        <p class="description">
+          Bananas are one of the most popular and nutritious fruits, loved for their naturally sweet flavor, creamy texture, and instant energy boost. They’re ideal for breakfast, post-workout snacks, or even baking.
+        </p>
+
+
+        <label for="mangoType">Select Banana Variety:</label>
+        <select id="mangoType" name="Banana" required>
+            <option value="">-- Choose a variety --</option>
+            <option value="">Cavendish Banana</option>
+            <option value="."> Robusta Banana</option>
+            <option value="dasheri"> Red Banana
+</option>
+            <option value="langra">Yelakki Banana</option>
+            <option value="badami">Monthan Banana</option>
+        </select>
+
+        <button class="buy-button">Place Order</button>
+      </div>
+    </div>
+  </main>
+
+   <!-- Footer Start -->
+<footer style="background-color: #f4ffe3; padding: 40px 20px; color: #2d3a2d; font-family: Arial, sans-serif;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    
+    <!-- About -->
+    <div style="flex: 1 1 250px; margin: 10px;">
+      <h3 style="color: #2ecf2e;" id="h3"> FruityfyHub</h3>
+      <p>Your daily dose of fresh fruits delivered to your doorstep. Stay healthy. Stay fruity!</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div style="flex: 1 1 150px; margin: 10px;">
+      <h4 style="color:orange; font-size: 19px;">Quick Links</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li  style="padding-top: 6px;"><a href="/" style="text-decoration: none; color: #2d3a2d;">Home</a></li>
+        <li style="padding-top: 9px;"><a href="/shop" style="text-decoration: none; color: #2d3a2d;">Shop</a></li>
+        <li style="padding-top: 9px;"><a href="/about" style="text-decoration: none; color: #2d3a2d;">About Us</a></li>
+        <li style="padding-top: 9px;"><a href="/contact" style="text-decoration: none; color: #2d3a2d;">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div style="flex: 1 1 200px; margin: 10px;">
+      <h4 style="color: orange;font-size: 19px">Contact</h4>
+      <p style="font-size: 18px;">Email: support@fruityfyhub.com</p>
+      <p style="font-size: 18px;">Phone: +1 (234) 567-8901</p>
+      <p style="font-size: 18px;">Location: 123 Fruit Lane, xyzCity</p>
+    </div>
+
+    <!-- Social Links -->
+    <div style="flex: 1 1 150px; margin: 10px;">
+      <h4 style="color:orange;font-size: 19px">Follow Us</h4>
+      <a href="#" style="margin-right: 10px; color: black;"><i class="fa-brands fa-facebook" style="font-size: 30px;padding-right: 12px;padding-top: 10px;"></i>Facebook</a><br>
+      <a href="#" style="margin-right: 10px; color: black;"><i class="fa-brands fa-instagram"style="font-size: 30px;padding-right: 12px;padding-top:10px;"></i>Instagram</a><br>
+      <a href="#" style="margin-right: 10px; color: black;"><i class="fa-brands fa-square-x-twitter"style="font-size: 30px;padding-right: 12px;padding-top:10px;"></i>twitter</a>
+    </div>
+  </div>
+
+  <hr style="margin: 30px 0; border: none; border-top: 1px solid #d6e9c6;">
+  <p style="text-align: center;font-size: 16px;">© 2025 FruityfyHub. All rights reserved.</p>
+</footer>
+<!-- Footer End -->
+     <script>
+        const togglebtn = document.querySelector('#manuicon')
+        const togglebtnicon = document.querySelector('#manuicon i')
+        const dropDownmanu = document.querySelector('.ul2')
+        togglebtn.onclick = function()
+        {
+            dropDownmanu.classList.toggle('open')
+            const isOpen = dropDownmanu.classList.contains('open')
+            togglebtn.classList =isOpen
+            ?'fa-solid fa-xmark'
+            :'fa-solid fa-bars'
+        }
+
+     </script>
+       <script>
+    const btn = document.getElementById("login-btn");
+    btn.addEventListener("click", function () {
+      document.body.classList.add("fade-out");
+      setTimeout(() => {
+        window.location.href = "Login_ecodash.html";
+      }, 500); // wait for fade-out effect
+    });
+  </script>
+</body>
+</html>
